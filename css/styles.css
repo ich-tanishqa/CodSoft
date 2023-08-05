@@ -83,14 +83,14 @@ body{
   line-height: 2rem;
 }
 /* testimonials */
-#testimonials{
+#courses{
   height: 550px;
   text-align: center;
   background-image:url("https://wallpaperaccess.com/full/3876166.jpg");
   color: #ffff;
   background-color: #cccccc;
 }
-#testimonials h2{
+#courses h2{
   padding-top: 20px;
 }
 .testimonial-text {
