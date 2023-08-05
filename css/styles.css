@@ -84,9 +84,14 @@ body{
 }
 /* testimonials */
 #testimonials{
+  height: 550px;
   text-align: center;
-  background-color:#ef8172;
+  background-image:url("https://wallpaperaccess.com/full/3876166.jpg");
   color: #ffff;
+  background-color: #cccccc;
+}
+#testimonials h2{
+  padding-top: 20px;
 }
 .testimonial-text {
   font-family: "Montserrat";
@@ -115,9 +120,33 @@ body{
 }
 /* pricing */
 #pricing{
-  padding: 100px;
+  padding: 90px;
   text-align: center;
+  background-color: #000000;
+  color: white;
 }
+#pricing .btn{
+  border-color: #FB2576;
+  color: white;
+  background-color: #FB2576;
+  margin-top: 10px;
+
+}
+#pricing .btn:hover{
+  background-color: transparent;
+  color: #fff;
+  border-color: #FB2576;
+
+}
+#pricing .card{
+  border-color: #FB2576;
+  border-radius: 15px;
+  border-width: 7px;
+  height: 24rem;
+
+}
+
+
 .pricing-column{
   padding: 3% 2%;
 }
