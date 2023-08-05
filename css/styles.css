@@ -21,7 +21,7 @@ body{
 }
 /* Title section */
 #title{
-  background-color: #ff4c68;
+  background-color: #000000;
   color: #ffff;
   font-weight: bold;
 }
@@ -44,12 +44,13 @@ body{
   font-weight: normal;
 }
 .download-button{
-  margin: 5% 3% 5% 0;
+  margin: 2% 3% 5% 0;
 }
 .title-img{
-  width: 20%;
-  transform:rotate(15deg);
+  width: 32%;
+  /* transform:rotate(15deg); */
   position: absolute;
+  margin-top: -220px;
   left: 57%;
 }
 /* Features section */
@@ -127,7 +128,8 @@ body{
   .title-img{
     position: static;
     transform: rotate(0);
-    width:45%
+    width:52%;
+    margin-top: -87px;
   }
 
 }
@@ -155,70 +157,34 @@ body{
 .footer-img{
   padding:2%;
 }
-/* * {  
-  margin: 0;  
-  padding: 0;  
-  box-sizing: border-box;  
- }  
- body {  
-  display: flex;  
-  justify-content: center;  
-  align-items: center;  
-  height: 100vh;  
-  background: #eee;  
- }   */
- .typing.animate {  
-  width: 20ch; 
-  border-right: 0.1em solid black;  
-  font-family: monospace;  
-  font-size: 2.5em;  
-  animation: type 2.5s steps(20), writer 1s infinite alternate, delete 0.5s steps(5) 2.5s, type2 1s steps(4) 3s forwards, type3 3s steps(22, end) 6s forwards;  
-  overflow: hidden;  
-  white-space: nowrap;  
-  cursor: pointer;  
- }  
- .typing.animate::before {   
-  content: "Hard work is the key";  
-  animation: type2 1s steps(4) 3s forwards, type3 3s steps(22, end) 6s forwards;  
- }  
- @keyframes type {  
-  from {  
-   width: 0;  
-  }  
-  to {  
-   width: 18ch;  
-  }  
- }  
- @keyframes type2 {  
-  from {  
-   width: 12ch;  
-   content: "Hard work"  
-  }  
-  to {  
-   width: 14ch;  
-   content: "Smart work"  
-  }  
- }  
- @keyframes type3 {  
-  from {  
-   width: 14ch;  
-   content: "Smart work is the key"  
-  }  
-  to {  
-   width: 35ch;  
-   content: "Smart work is the key to success!"  
-  }  
- }  
- @keyframes writer {  
-  50% {  
-   border-color: transparent;  
-  }  
- }  
- @keyframes delete {  
-  from {  
-   width: 21ch;  
-  }  
-  to {  
-   width: 16ch;  
-  }  
- }  
+.text1{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 4em;
+  line-height: 61px;
+  /* height: 100vh;
+  display: flex; */
+  justify-content: left;
+  align-items: centre;
+  margin-top: 15px;
+ 
+}
+.text1 p{
+  width: 30%;
+  text-align: left;
+  
+}
+
+del {
+  text-decoration-color:#FB2576;
+}
+
+ins {
+  text-decoration: none;
+  font-family: 'Caveat', cursive;
+  font-size: 63.25px;
+  color: #FB2576;
+  position:absolute;
+  transform:rotate(-4deg);
+  margin-left: -383px;
+  margin-top: -69px;
+}
