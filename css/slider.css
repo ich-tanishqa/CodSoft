@@ -11,6 +11,7 @@ margin: 7px;
   
 }
 .card-body h5{
+  font-family: "Montserrat";
   font-size: 35px;
   margin-bottom: 30px;
   color: white;
@@ -23,7 +24,7 @@ margin: 7px;
 
 .card{
   background: transparent;
-  backdrop-filter: blur(13px);
+  backdrop-filter: blur(7px);
   border-radius: 25px;
   height:23rem;
 }

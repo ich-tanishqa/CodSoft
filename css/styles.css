@@ -178,13 +178,17 @@ body{
 }
 /* footer section */
 #footer{
-  background-color: #fff;
-  padding: 5%;
+  background-image: url("https://e0.pxfuel.com/wallpapers/388/922/desktop-wallpaper-world-map-black.jpg");
+  padding: 1%;
   text-align: center;
-
+  color: #fff;
+  background-position: -20%;
+  
 }
 .footer-img{
-  padding:2%;
+  padding:1.5%;
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
 }
 .text1{
   font-family: 'Roboto Mono', monospace;
